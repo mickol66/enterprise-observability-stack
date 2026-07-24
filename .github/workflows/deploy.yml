@@ -46,7 +46,7 @@ jobs:
         with:
           role-to-assume: ${{ secrets.AWS_ROLE_ARN }} # Hämtar ditt sparade ARN
           aws-region: eu-north-1
-          audience: ://amazonaws.com
+          audience: sts.amazonaws.com
 
       # 7. Driftsätt din övervaknings-dashboard!
       - name: CDK Deploy
