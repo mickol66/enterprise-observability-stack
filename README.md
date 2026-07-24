@@ -3,7 +3,6 @@
 A production-grade cloud monitoring and observability solution designed to enforce proactive system visibility and automated incident response across multi-tier enterprise applications. Built entirely as Infrastructure as Code (IaC) using **AWS CDK (Python)**, this stack provisions a centralized monitoring infrastructure aligned with the **AWS Well-Architected Framework (Operational Excellence pillar)**.
 
 ## 🏗️ Architecture & Observability Overview
-
 ![AWS Architecture Diagram](diagram.png)
 
 _Architecture diagram automated and generated using **AWS Kiro CLI** and **Model Context Protocol (MCP)**._
