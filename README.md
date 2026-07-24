@@ -6,7 +6,7 @@ A production-grade cloud monitoring and observability solution designed to enfor
 ![AWS Architecture Diagram](diagram.png)
 _Architecture diagram automated and generated using **AWS Kiro CLI** and **Model Context Protocol (MCP)**._
 Instead of relying on static thresholds, this project implements a dynamic, modern Operations Dashboard that independent infrastructure stacks can feed metrics into.
-![CloudWatch Dashboard Observability](Observe_Dahbord.png)
+![CloudWatch Dashboard Observability](Observe_Dashbord.png)
 
 *   **Centralized CloudWatch Dashboard:** A fully coded telemetry panel layout (`Enterprise-Core-Infrastructure-Status`) that structures infrastructure health widgets side-by-side for rapid cross-system diagnostics.
 *   **AI-Powered Anomaly Detection:** Leverages AWS built-in machine learning algorithms (`AnomalyDetectionAlarm`) to monitor Amazon ECS Fargate CPU utilization. The alarm dynamically calculates normal behavior bands (3 standard deviations), mitigating alert fatigue by only triggering when real operational anomalies occur.
