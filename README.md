@@ -4,9 +4,7 @@ A production-grade cloud monitoring and observability solution designed to enfor
 
 ## 🏗️ Architecture & Observability Overview
 ![AWS Architecture Diagram](diagram.png)
-
 _Architecture diagram automated and generated using **AWS Kiro CLI** and **Model Context Protocol (MCP)**._
-
 Instead of relying on static thresholds, this project implements a dynamic, modern Operations Dashboard that independent infrastructure stacks can feed metrics into.
 
 *   **Centralized CloudWatch Dashboard:** A fully coded telemetry panel layout (`Enterprise-Core-Infrastructure-Status`) that structures infrastructure health widgets side-by-side for rapid cross-system diagnostics.
